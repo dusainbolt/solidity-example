@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testIterableMap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/21_Interable_Map.sol": "TestIterableMap"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/21_Interable_Map.sol": {
+			"keccak256": "0x9605c681331d8d69e5d5195272c5a26e10a296389f2990a0a1924e961609a58d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b1b4b1b10b78500ad9576ec92fa96a3a3f9141f0d39296dc0434cd7f1ce50cef",
+				"dweb:/ipfs/QmcyTE88wZGsrFmqD217coWmBZQRo9VUc745qFQDetappw"
+			]
+		}
+	},
+	"version": 1
+}
