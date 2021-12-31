@@ -155,11 +155,11 @@
 	},
 	"sources": {
 		"contracts/22_ERC20_Swap_Token.sol": {
-			"keccak256": "0x64666d4744227bb8f3ae7d9e67364ea313e7a000032d485cfc87e3761f54fb3c",
+			"keccak256": "0x7c65542704d4b543739b154cea721580342ad99af0b07acef342d186cc4afbb9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d90d9691d5b9ae3124f08b942fd93de4e485c66edc4042642a7cb1a66e27458c",
-				"dweb:/ipfs/Qma4zomi3P1ZfzpHd3zDEBiMi7Bz4dmPJABD5K5be2tna6"
+				"bzz-raw://660474b227fb1c3a8f68d2ef28cc51b67181b854f90712b16b29dc80f8a69282",
+				"dweb:/ipfs/QmPswS1rGdy2pnskuScijjM8ymxZHxgJT1tG7F2NBzB7Tb"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/token/ERC20/ERC20.sol": {

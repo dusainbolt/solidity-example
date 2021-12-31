@@ -16,6 +16,21 @@ contract MyToken is ERC20 {
 /*
 How to swap tokens
 
+AliceCoin
+Contract: 0xd9145CCE52D386f254917e481eB44e9943F39138
+Owner: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+
+BobCoin
+Contract: 0xa131AD247055FD2e2aA8b156A11bdEc81b9eAD95
+Owner: 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
+
+TokenSwap
+Contract: 0x9ecEA68DE55F316B702f27eE389D10C2EE0dde84
+Owner: 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+
+10000000000000000000
+20000000000000000000
+
 1. Alice has 100 tokens from AliceCoin, which is a ERC20 token.
 2. Bob has 100 tokens from BobCoin, which is also a ERC20 token.
 3. Alice and Bob wants to trade 10 AliceCoin for 20 BobCoin.
