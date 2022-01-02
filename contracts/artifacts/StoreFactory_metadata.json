@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_impl",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "storeAddress",
+						"type": "address"
+					}
+				],
+				"name": "CloneSuccess",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "clone",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "result",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cloneStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "impl",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/24_proxy_factory.sol": "StoreFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/24_minimal_store_contract.sol": {
+			"keccak256": "0x18bc60b296a5730eda294af2858463fa56d39ba02005990e49df6a7ecbca5b0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2fee89db2b7f598a9176a72c24921a83f819bd3b7de430a75c5e6bae6eb83c06",
+				"dweb:/ipfs/QmZccNquTuGkGr3zhunqWrqssUFUHSUMKzNnzeGdE7X3kx"
+			]
+		},
+		"contracts/24_proxy_factory.sol": {
+			"keccak256": "0x1c86890532dd5dea77f1f777d5499aae3324d4e0c2c4491c5195c2ddb138482d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://04ff650fa8a00e4c9345a1d218288d425152d33e0e60f92f39d604c710f25c7e",
+				"dweb:/ipfs/QmYJskQ4ANxv3geN2dKJWywy1Av7f8jyZ4EiB4qnLQ1VG8"
+			]
+		}
+	},
+	"version": 1
+}

@@ -9,7 +9,7 @@ contract MyToken is ERC20 {
         // Similar to how
         // 1 dollar = 100 cents
         // 1 token = 1 * (10 ** decimals)
-        _mint(msg.sender, 100 * 10**uint(decimals()));
+        _mint(msg.sender, 100 * 10**uint256(decimals()));
     }
 }
 
@@ -44,18 +44,18 @@ Owner: 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
 contract TokenSwap {
     IERC20 public token1;
     address public owner1;
-    uint public amount1;
+    uint256 public amount1;
     IERC20 public token2;
     address public owner2;
-    uint public amount2;
+    uint256 public amount2;
 
     constructor(
         address _token1,
         address _owner1,
-        uint _amount1,
+        uint256 _amount1,
         address _token2,
         address _owner2,
-        uint _amount2
+        uint256 _amount2
     ) {
         token1 = IERC20(_token1);
         owner1 = _owner1;
@@ -84,7 +84,7 @@ contract TokenSwap {
         IERC20 token,
         address sender,
         address recipient,
-        uint amount
+        uint256 amount
     ) private {
         bool sent = token.transferFrom(sender, recipient, amount);
         require(sent, "Token transfer failed");
