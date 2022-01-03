@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.10+commit.fc410830"
+		"version": "0.8.11+commit.d7f03943"
 	},
 	"language": "Solidity",
 	"output": {
@@ -151,6 +151,25 @@
 				"name": "confirmTransaction",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "deposit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -414,11 +433,11 @@
 	},
 	"sources": {
 		"contracts/19_multi_xg_wallet.sol": {
-			"keccak256": "0x160cae27dc2625e6f8c10231288656684646993a98e614a247962da67028d479",
+			"keccak256": "0x32558eff5583309aadbe34868934c6f678ee712de4cb1f44f8851e155f414f49",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e924be7c0e443678fdcaaeef4807fb5e88552acf63b07be21e8a144d1833a4a3",
-				"dweb:/ipfs/QmRb37vXj5jjhXAUJEe6mdKKN5i1Q54UXzGt7pet7np8Qw"
+				"bzz-raw://a965249ea461fd031408f654bcec840cfb2eae7fca07863c2ba506894ac64619",
+				"dweb:/ipfs/QmbnG1T9aMWDHFDwEapC3eiWUshS22XnnLpJHPDuN8VnXx"
 			]
 		}
 	},

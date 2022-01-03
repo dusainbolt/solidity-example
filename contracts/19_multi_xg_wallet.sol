@@ -16,6 +16,7 @@ contract DuCryptoMultiWallet {
 
     address[] public owners;
     mapping(address => bool) public isOwner;
+    mapping(address => uint) public deposit;
     uint public numConfirmationsRequired;
 
     struct Transaction {
@@ -73,6 +74,7 @@ contract DuCryptoMultiWallet {
     }
 
     receive() external payable {
+        deposit[msg.sender] =  deposit[msg.sender] +  msg.value;
         emit Deposit(msg.sender, msg.value, address(this).balance);
     }
 

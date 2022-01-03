@@ -6,21 +6,28 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "target",
-						"type": "address"
-					}
-				],
-				"name": "clone",
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
 						"internalType": "address",
-						"name": "result",
+						"name": "",
 						"type": "address"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -38,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/24_proxy_factory.sol": "MinimalProxy"
+			"contracts/24_proxy_deploy_any_contract.sol": "TestContract1"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -52,20 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/24_minimal_store_contract.sol": {
-			"keccak256": "0xacbddb03f6cf3c510f411e34acbc4ccc470e2e88b67ed809047e5cf2642d2f2f",
+		"contracts/24_proxy_deploy_any_contract.sol": {
+			"keccak256": "0x140925a2d63ccd4fe2de045996ba65f5300007a86ff880f20f0c7b027ac06d7d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://83352bc0fe65638ee6aa09774d5f95aff655ba89343b041d678675a1ab4cf5f1",
-				"dweb:/ipfs/QmS6ZLqB7VtivZmrjCk4XT7NEFB6mRkXaHXT9pbHSvNSBr"
-			]
-		},
-		"contracts/24_proxy_factory.sol": {
-			"keccak256": "0xa3876800fafa29648900abc475fe5ee888fab8435a2a6781c7d74f3b9a2284c9",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://96680fea738a9ac6a83b4e7300ecf38e054e9b85af780051372de0c73af33f05",
-				"dweb:/ipfs/Qme3pEWDHXKA4zM2VSnGHyWUQdyU4dubsBQ6tsa2HRfYyM"
+				"bzz-raw://e9c26b53d5fe00b7a644d87deccfc67cd11eae0ccdbf1ff37a735218ad0b62c7",
+				"dweb:/ipfs/QmWdcugb5E7mxciokpSD4tvNEnFWW7jDrGjxUmD6owPxc9"
 			]
 		}
 	},

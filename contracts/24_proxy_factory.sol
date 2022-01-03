@@ -6,6 +6,14 @@ import "./24_minimal_store_contract.sol";
 // original code
 // https://github.com/optionality/clone-factory/blob/master/contracts/CloneFactory.sol
 
+contract Store {
+  string public value;
+
+  function setValue(string calldata newValue) external {
+    value = newValue;
+  }
+}
+
 contract MinimalProxy {
     function clone(address target) external returns (address result) {
         // convert address to 20 bytes
